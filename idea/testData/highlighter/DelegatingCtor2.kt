@@ -1,0 +1,3 @@
+class <info textAttributesKey="KOTLIN_CLASS">F</info>(<warning descr="[UNUSED_PARAMETER] Parameter 'foo' is never used" textAttributesKey="NOT_USED_ELEMENT_ATTRIBUTES"><info textAttributesKey="KOTLIN_PARAMETER">foo</info></warning>: <info textAttributesKey="KOTLIN_CLASS">String</info>) {
+    <info textAttributesKey="KOTLIN_KEYWORD">constructor</info>()<error descr="[PRIMARY_CONSTRUCTOR_DELEGATION_CALL_EXPECTED] Primary constructor call expected" textAttributesKey="ERRORS_ATTRIBUTES"></error> {} // [PRIMARY_CONSTRUCTOR_DELEGATION_CALL_EXPECTED] Primary constructor call expected
+}

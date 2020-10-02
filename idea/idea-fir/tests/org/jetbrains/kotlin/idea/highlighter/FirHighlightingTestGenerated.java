@@ -40,6 +40,16 @@ public class FirHighlightingTestGenerated extends AbstractFirHighlightingTest {
             runTest("idea/testData/highlighter/AutoCreatedItParameter.kt");
         }
 
+        @TestMetadata("DelegatingCtor1.kt")
+        public void testDelegatingCtor1() throws Exception {
+            runTest("idea/testData/highlighter/DelegatingCtor1.kt");
+        }
+
+        @TestMetadata("DelegatingCtor2.kt")
+        public void testDelegatingCtor2() throws Exception {
+            runTest("idea/testData/highlighter/DelegatingCtor2.kt");
+        }
+
         @TestMetadata("Destructuring.kt")
         public void testDestructuring() throws Exception {
             runTest("idea/testData/highlighter/Destructuring.kt");

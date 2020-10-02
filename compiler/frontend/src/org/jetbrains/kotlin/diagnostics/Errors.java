@@ -395,7 +395,7 @@ public interface Errors {
             DiagnosticFactory0.create(ERROR);
 
     DiagnosticFactory0<PsiElement> PRIMARY_CONSTRUCTOR_REQUIRED_FOR_DATA_CLASS = DiagnosticFactory0.create(ERROR);
-    DiagnosticFactory0<KtConstructorDelegationCall> EXPLICIT_DELEGATION_CALL_REQUIRED =
+    DiagnosticFactory0<PsiElement> EXPLICIT_DELEGATION_CALL_REQUIRED =
             DiagnosticFactory0.create(ERROR, PositioningStrategies.SECONDARY_CONSTRUCTOR_DELEGATION_CALL);
 
     DiagnosticFactory1<PsiElement, DeclarationDescriptor> INSTANCE_ACCESS_BEFORE_SUPER_CALL = DiagnosticFactory1.create(ERROR);
